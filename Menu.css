@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0;
+    vertical-align: top;
 }
 .BrightEDStartcontainer{
     font-size: 50px;
@@ -21,20 +22,56 @@ body{
 }
 .header-menu{
     display: flex;
-    position: relative;
-    bottom: 1rem;
+    justify-content: space-between;
     font-size: 24px;
     padding-right: 2rem;
+    padding-top: 1.6rem;
 }
 .text{
     padding-right: 2rem;
+    margin: 0;
+    padding-top: 2rem;
 }
 .image{
     padding-left: 1.8rem;
-    position: relative;
-    top: 2rem;
+    position: absolute;
 }
-.menu-conatiner{
+.menu-continer,
+.grades-selection{
     display: flex;
-    flex-direction: column;   
+    justify-content: center;
+    font-family: Atkinson Hyperlegible;
+    color: #00574F;
 }
+.Select{
+    margin: 0;
+    font-size: 48px;
+}
+.grades-selection{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 20rem;
+}
+.grade{
+font-size: 36px;
+margin: 0;
+margin-top: 4rem;
+}
+.picture-selection{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 18rem;
+}
+.link-index{
+    text-decoration: none;
+    color: #EFF3FF;
+}
+.cutepicture2{
+    display: flex;
+    justify-content:space-between;
+}
+
+.secondpic{
+   width: 690px;
+}
+
