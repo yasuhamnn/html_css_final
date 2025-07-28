@@ -32,6 +32,12 @@ body{
     margin: 0;
     padding-top: 2rem;
 }
+.text1{
+    padding-right: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+    color: #F48F4A;
+}
 .header-link{
     text-decoration: none;
     color: #EFF3FF;
@@ -74,7 +80,29 @@ margin-top: 4rem;
     display: flex;
     justify-content:space-between;
 }
-
 .secondpic{
    width: 690px;
 }
+.navigation-arrow{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: auto;
+}
+.video-wrapper{
+display: flex;
+justify-content: center;
+align-items: center; 
+width: 85rem;
+background: #C2DFEE;
+border-radius: 40px;
+min-height: auto;
+}
+
+
+

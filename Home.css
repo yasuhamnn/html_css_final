@@ -32,6 +32,10 @@ body{
     margin: 0;
     padding-top: 2rem;
 }
+.header-link{
+    text-decoration: none;
+    color: #EFF3FF;
+}
 .image{
     padding-left: 1.8rem;
     position: absolute;
@@ -59,8 +63,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;  
     display: relative;
-    margin-top: 9rem;
-    
+    margin-top: 9rem;  
 }
 .intro-text{
     font-family: Atkinson Hyperlegible;
@@ -102,7 +105,6 @@ body{
     top: 1rem;
     left: 1rem;
 }
-
 
 
 
