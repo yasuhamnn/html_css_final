@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient( #E0F4F2,#A8DCD6);
+    min-height: 100vh; 
+    margin: 0;
+    font-family: Poppins;
+    color: #EFF3FF;
+}
+.header-blue{
+    height: 7rem;
+    background: #004D6B;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.BrightEDStartcontainer{
+    font-size: 50px;
+    display: flex;
+    padding-left: 4rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+.header-menu{
+    display: flex;
+    position: relative;
+    bottom: 1rem;
+    font-size: 24px;
+    padding-right: 2rem;
+}
+.text{
+    padding-right: 2rem;
+}
+.image{
+    padding-left: 1.8rem;
+    position: relative;
+    top: 2rem;
+}
+.menu-conatiner{
+    display: flex;
+    flex-direction: column;   
+}
