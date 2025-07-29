@@ -38,50 +38,15 @@ body{
     padding-top: 2rem;
     color: #F48F4A;
 }
-.header-link{
+.header-link,
+.link-index
+{
     text-decoration: none;
     color: #EFF3FF;
 }
 .image{
     padding-left: 1.8rem;
     position: absolute;
-}
-.menu-continer,
-.grades-selection{
-    display: flex;
-    justify-content: center;
-    font-family: Atkinson Hyperlegible;
-    color: #00574F;
-}
-.Select{
-    margin: 0;
-    font-size: 48px;
-}
-.grades-selection{
-    display: flex;
-    justify-content: space-between;
-    padding: 0rem 20rem;
-}
-.grade{
-font-size: 36px;
-margin: 0;
-margin-top: 4rem;
-}
-.picture-selection{
-    display: flex;
-    justify-content: space-between;
-    padding: 0rem 18rem;
-}
-.link-index{
-    text-decoration: none;
-    color: #EFF3FF;
-}
-.cutepicture2{
-    display: flex;
-    justify-content:space-between;
-}
-.secondpic{
-   width: 690px;
 }
 .navigation-arrow{
     display: flex;
@@ -90,19 +55,94 @@ margin-top: 4rem;
 }
 .wrapper{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    min-height: auto;
+    align-items: center;
 }
 .video-wrapper{
-display: flex;
-justify-content: center;
-align-items: center; 
-width: 85rem;
 background: #C2DFEE;
+width: 1140px;
 border-radius: 40px;
-min-height: auto;
+height: 956px;
 }
+.upperdiv{
+    display: flex;
+    justify-content: space-between;
+    background: #E0F4F2;
+    border-radius: 40px;
+    margin-top: 2rem;
+    width: 1099px;
+    height: 371px;
+   margin-left: 1.5rem;
+}
+.preview{
+  background: #A8C6D5;
+  border-radius: 40px 0px 0px 40px;
+  width:427px;
+}
+.investigator{
+    margin-top: 4rem;
+}
+.previews-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    font-family: Poppins;
+    margin-right: 6rem;
+}
+.Sponsored{
+    font-size: 50px;  
+    margin: 0;
+    font-weight: 700;
+}
+.Follow{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+.watchbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 65px;
+    background: #F48F4A;
+    border-radius: 100px;
+    font-family: Poppins;
+    font-size: 30px;
+}
+.halfbuttondesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #AF5A1F;
+    height: 65px;
+    width: 60px;
+    border-radius: 0px 100px 100px 0px;
+}
+.video-logo{
+margin-left: 1rem;
+}
+.middlediv{
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 32px;
+    color: #212121;
+    font-weight: 600;
+    padding-left: 1.9rem;
+}
+.featured{
+    margin: 0;
+}
+.lowerdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 
 
 
