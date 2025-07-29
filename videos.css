@@ -112,6 +112,7 @@ height: 956px;
     border-radius: 100px;
     font-family: Poppins;
     font-size: 30px;
+    margin-top: 1rem;
 }
 .halfbuttondesign{
     display: flex;
@@ -140,8 +141,51 @@ margin-left: 1rem;
 .lowerdiv{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 32px;
+    color: #212121;
+    font-weight: 600;
 }
-
+.video1{
+    display: flex;
+    flex-direction: column;    
+    background: #E0F4F2;
+    height: 274px;
+    width: 259px;
+}
+.watchbutton2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 131px;
+    height: 36px;
+    background: #F48F4A;
+    border-radius: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.halfbuttondesign2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #AF5A1F;
+    height: 36px;
+    width: 29px;
+    border-radius: 0px 100px 100px 0px;
+}
+.video-logo{
+margin-left: 1rem;
+}
+.button1{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+.kidz{
+    margin: 0;
+}
 
 
 
