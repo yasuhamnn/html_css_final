@@ -1,0 +1,64 @@
+/* MENU */
+
+.menu-continer{
+    display: flex;
+    justify-content: center;
+    font-family: Atkinson Hyperlegible;
+    color: #00574F;
+    padding-top: 7rem;
+}
+.Select{
+    margin: 0;
+    font-size: 48px;
+}
+.grade{
+font-size: 36px;
+margin: 0;
+margin-top: 4rem;
+padding-left: 2rem;
+}
+.picture-selection{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 18rem;
+    font-family: Atkinson Hyperlegible;
+    color: #00574F;
+}
+.link-index{
+    text-decoration: none;
+    color: #EFF3FF;
+}
+.cutepicture3{
+    display: flex;  
+    gap: 10rem;
+    padding-left: 5rem;
+}
+.firstpic{
+    width: 300px; 
+}
+.secondpic{
+   width: 300px;
+}
+.menuwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) 
+{
+.Select{
+ font-size: 20px;
+}
+.picture-selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    padding: 0rem 0rem;
+    padding-left: 4rem;
+}
+
+}

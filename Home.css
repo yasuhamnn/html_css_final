@@ -1,3 +1,4 @@
+/* HOME */
 body{
     background-image: linear-gradient( #E0F4F2,#A8DCD6);
     min-height: 100vh; 
@@ -6,105 +7,220 @@ body{
     color: #EFF3FF;
 }
 .header-blue{
-    height: 7rem;
+    height: 6rem;
     background: #004D6B;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0;
-    vertical-align: top;
+    position: fixed;
+    width: 100%;
 }
 .BrightEDStartcontainer{
-    font-size: 50px;
-    display: flex;
     padding-left: 4rem;
-    position: relative;
-    bottom: 1.5rem;
+    font-size: 50px;
 }
 .header-menu{
     display: flex;
     justify-content: space-between;
     font-size: 24px;
     padding-right: 2rem;
-    padding-top: 1.6rem;
 }
 .text{
     padding-right: 2rem;
     margin: 0;
     padding-top: 2rem;
 }
-.header-link{
-    text-decoration: none;
-    color: #EFF3FF;
+.textorange{
+    padding-right: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+    color: #F48F4A;
 }
 .image{
     padding-left: 1.8rem;
     position: absolute;
 }
+.cutics{
+    width: 800px;
+}
+.link-index{
+    text-decoration: none;
+    color: #EFF3FF;
+}
 .content{
     display: flex;
-    justify-content:space-between;
-    padding-top: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 9rem;
 }
 .cutepicture{
-    display: flex;
-    justify-content:space-between;
+    margin: 0;
+    
 }
-.bigpic{
-    position: relative;
-    right: 7rem;
-}
-.samllpic{
-    position: absolute;
-    top: 32rem;
-    left: 18rem;
+.cutepicture2{
+    margin: 0;
+    display: none;   
 }
 .introduction{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;  
-    display: relative;
-    margin-top: 9rem;  
+    justify-content: center;
+    align-items: center;  
+    margin-top: 10rem;
 }
-.intro{
+.intro,
+.learnings{
     font-family: Atkinson Hyperlegible;
 }
 .WELCOME{
     font-size: 50px;
     color: #00574F;
     margin: 0;
-    position: relative;
-    right: 1rem;
+    margin-right: 3rem;
 }
 .learning{
-    font-size: 40px;
+    font-size: 39px;
     color: #0D433E;
     margin: 0;
-    margin-top: 1rem;
-    position: relative;
-    right: 1rem;
+    margin-top: .5rem;
+    
 }
 .buttonwrap{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
     background: #004D6B;
     color: #EFF3FF;
     font-size: 64px;
-    width: auto;
+    width:588px;
     height: 144px;
     border-radius: 108px;
     border-style: none;
-    display: flex;
-    margin-top: 5rem;
-    justify-content: center;
+    margin-top: 2rem;
     padding-top: 2rem;
     box-shadow: 10px 10px 20px #004058 inset;
-}
-.linktext{
-    text-decoration: none;
+    gap: 1rem;
 }
 .arrow{
-    position: relative;
-    top: 1rem;
-    left: 1rem;
+    margin-top: 0.8rem;
 }
+.hamburger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 24px;
+    cursor: pointer;
+    background: #004D6B;
+    margin-right: 5rem;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    
+}
+.hamburger-menu:hover{
+    background: #EFF3FF;
+    color:#004D6B ; 
+}
+
+/* Responsive Media Query */
+
+/* Phones */
+@media screen and (max-width: 600px) 
+{
+    .header-blue{
+        height: 4rem;
+    }
+    .buttonwrap{
+        font-size: 35px;
+        width:329px;
+        height: 70px;
+        margin-top: 5rem;
+        padding-top: 1rem;
+    }
+    .arrow{
+        width: 30px;
+        height: 30px;
+    }
+    .header-menu {
+      display: none;
+    }
+    .hamburger-menu{
+      display: flex;
+      font-size: 20px;
+      width: 70px;
+      height: 40px;
+      margin-right: 1rem;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0rem;
+    }
+    .cutepicture{
+        display: none;
+
+    }
+    .cutepicture2{
+        display: block;  
+    }
+    .cutics{
+        width: 500px;
+    }
+    .introduction{
+        align-items: center;
+        margin-left: 5rem;
+    }
+    .learning{
+       font-size: 20px;
+       margin: 0;
+    }
+    .WELCOME{
+        font-size: 25px;
+        margin: 0;  
+    }
+}
+/* Tablets */
+@media screen and (max-width: 1024px) 
+{
+.BrightEDStartcontainer{
+        font-size: 40px;
+        padding-left: 1rem;
+        margin-right: 0px;
+    }
+    .header-menu{
+        font-size: 15px;
+    }
+    .image{
+      width: 30px;
+      height: 30px;
+      padding-left: 1rem;
+    }
+    .cutics{
+        width: 700px;
+    }
+    .WELCOME{
+        font-size: 40px;
+        margin: 0;
+    }
+    .learning{
+        font-size: 20px;
+        margin: 0;
+    }
+    .buttonwrap{
+        font-size: 60px;
+        width:588px;
+        height: 130px;
+    }
+}
+
+
+
 
 
 
