@@ -30,14 +30,16 @@ padding-left: 2rem;
 }
 .cutepicture3{
     display: flex;  
-    gap: 10rem;
-    padding-left: 5rem;
+    justify-content: center;
+    gap: 2rem;
+
+    
 }
 .firstpic{
-    width: 300px; 
+    width: 40rem; 
 }
 .secondpic{
-   width: 300px;
+   width: 40rem;
 }
 .menuwrapper{
     display: flex;
@@ -45,20 +47,52 @@ padding-left: 2rem;
     justify-content: center;
 }
 
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 414px) 
 {
-.Select{
- font-size: 20px;
-}
-.picture-selection{
-    display: flex;
+.menu-continer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap:wrap ;
+    
+    padding-top: 4rem;
+}
+.Select {
+    font-size: 26px;
+    margin: 0;
+}
+.picture-selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0rem 0rem;
-    padding-left: 4rem;
+    padding: 1rem 2rem;
 }
 
+.image-selection{
+    width: 150px;
+    height: 140px;
+}
+.grade{
+    margin-top: 0rem;
+    font-size: 20px;
+}
+.firstpic, .secondpic{
+    width: 5rem;
+    height: auto;
+    gap: 0rem;
+}
+}
+
+
+@media screen and (max-width: 950px), screen and (max-width: 5px)
+{
+    .picture-selection{
+        justify-content: center;
+        padding: 0rem 10;       
+}
+.firstpic, .secondpic{
+    width: 20rem;
+    height: auto;
+}
 }

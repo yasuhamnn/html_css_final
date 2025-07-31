@@ -17,14 +17,13 @@ body{
     width: 100%;
 }
 .BrightEDStartcontainer{
-    padding-left: 4rem;
-    font-size: 50px;
+    padding-left: 2rem;
+    font-size: 3rem;
 }
 .header-menu{
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
-    padding-right: 2rem;
+    font-size: 24px; 
 }
 .text{
     padding-right: 2rem;
@@ -89,21 +88,21 @@ body{
 .buttonwrap{
     display: flex;
     justify-content: center;
-    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 9rem;
     background: #004D6B;
     color: #EFF3FF;
-    font-size: 64px;
-    width:588px;
-    height: 144px;
+    font-size: 4rem;
     border-radius: 108px;
     border-style: none;
     margin-top: 2rem;
-    padding-top: 2rem;
     box-shadow: 10px 10px 20px #004058 inset;
     gap: 1rem;
 }
-.arrow{
-    margin-top: 0.8rem;
+.arrow {
+   margin-top: 1rem;
+   width: 60px;
 }
 .hamburger-menu{
     display: flex;
@@ -119,33 +118,41 @@ body{
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    display: none;
-    
+    display: none;    
 }
 .hamburger-menu:hover{
     background: #EFF3FF;
     color:#004D6B ; 
 }
+.arrow{
+    width: 50px;
+}
 
 /* Responsive Media Query */
 
 /* Phones */
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 414px) 
 {
-    .header-blue{
+.BrightEDStartcontainer p{
+        font-size: 1.8rem;
+}
+ .header-blue{
         height: 4rem;
-    }
+        }
     .buttonwrap{
-        font-size: 35px;
-        width:329px;
-        height: 70px;
-        margin-top: 5rem;
-        padding-top: 1rem;
+        width: 20rem;
+        height: 5rem;
+        background: #004D6B;
+        color: #EFF3FF;
     }
-    .arrow{
-        width: 30px;
-        height: 30px;
-    }
+.button{
+    font-size: 2rem;  
+}
+.introduction{
+   margin-left: 10rem;
+   width: 100%;
+}
+
     .header-menu {
       display: none;
     }
@@ -164,32 +171,27 @@ body{
     }
     .cutepicture{
         display: none;
-
     }
     .cutepicture2{
-        display: block;  
+        display: flex; 
     }
     .cutics{
-        width: 500px;
+        width: auto;
     }
-    .introduction{
-        align-items: center;
-        margin-left: 5rem;
-    }
-    .learning{
-       font-size: 20px;
+    .learning b{
+       font-size: 15px;
        margin: 0;
     }
-    .WELCOME{
+    .WELCOME b{
         font-size: 25px;
         margin: 0;  
     }
 }
 /* Tablets */
-@media screen and (max-width: 1024px) 
+@media screen and (max-width: 950px) 
 {
 .BrightEDStartcontainer{
-        font-size: 40px;
+        font-size: 2rem;
         padding-left: 1rem;
         margin-right: 0px;
     }
@@ -212,12 +214,23 @@ body{
         font-size: 20px;
         margin: 0;
     }
-    .buttonwrap{
-        font-size: 60px;
-        width:588px;
-        height: 130px;
+}
+
+@media screen and (max-width: 1478px) 
+{
+    .cutics{
+        width: 600px;
+    }
+    .WELCOME{
+        font-size: 35px;
+        margin: 0;
+    }
+    .learning{
+        font-size: 18px;
+        margin: 0;
     }
 }
+    
 
 
 

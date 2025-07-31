@@ -50,10 +50,13 @@ height: 956px;
     font-family: Poppins;
     margin-right: 6rem;
 }
-.Sponsored{
+.Sponsored,.Sponsored2{
     font-size: 50px;  
     margin: 0;
     font-weight: 700;
+}
+.Sponsored2{
+    display: none;
 }
 .Follow{
     font-size: 24px;
@@ -145,3 +148,130 @@ margin-left: 1rem;
     margin: 0;
     margin-left: 1rem;
 }
+
+@media screen and (max-width: 414px)
+{
+    .watchbutton2{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .Follow{
+        font-size: 15px;
+    }
+    .Sponsored{
+        display: none;
+    }
+    .Sponsored2{
+        display: block;
+        font-size: 25px;
+    }
+    .navigation-arrow{
+        flex-direction: column;
+        padding: 0rem 0rem;
+        padding-top: 5rem;
+    }
+    .nav-content{
+        flex-direction: column;    
+    }
+   .arw{
+    display: none;
+   }
+.wrapper{
+    margin-top: 0rem;
+    width: auto;
+    height: auto;
+    }
+    .video-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: auto;
+       
+}
+.upperdiv{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 450px;
+    margin-top: 0rem;
+    margin-left: 0rem;  
+}
+.investigator{
+    margin-top: .5rem;
+    border-radius: 40px;
+    margin-left: .5rem;
+    width: 410px;
+}
+.preview{
+    width:427px;
+    border-radius: 40px;
+}
+.previews-description{
+    margin-right: 0rem;
+}
+.watchbutton{
+    width: 254px;
+    height: 50px;
+}
+.halfbuttondesign{
+    width: 60px;
+    height: 50px;
+    
+}
+.lowerdiv{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    gap: 1rem;
+    font-size: 20px;
+}
+.video-img{
+    width: 300px;
+}
+.video1{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 1rem;
+}
+.button1{
+   flex-direction: column;
+   margin-top: 5rem;
+   margin-right: 0rem;
+}
+.kidz{
+    margin-left: 0rem;
+}
+.formediaquery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0rem;   
+}
+.halfbuttondesign2{
+    width: 29px;
+    height: 30px;    
+}
+.watchbutton2{
+    width: 254px;
+    height: 30px;
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 1024px)
+{
+     .lowerdiv{
+        flex-wrap: wrap;
+    }
+   
+}
+
+
