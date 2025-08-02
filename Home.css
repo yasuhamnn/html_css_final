@@ -102,7 +102,7 @@ body{
 }
 .arrow {
    margin-top: 1rem;
-   width: 60px;
+   width: 5rem;
 }
 .hamburger-menu{
     display: flex;
@@ -124,17 +124,20 @@ body{
     background: #EFF3FF;
     color:#004D6B ; 
 }
-.arrow{
-    width: 50px;
-}
+
 
 /* Responsive Media Query */
 
 /* Phones */
 @media screen and (max-width: 414px) 
 {
+    .arrow {
+        margin-top: 1rem;
+        width: 3rem;
+     }
+    
 .BrightEDStartcontainer p{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
 }
  .header-blue{
         height: 4rem;
@@ -187,6 +190,87 @@ body{
         margin: 0;  
     }
 }
+
+@media screen and (max-width: 320px)
+{
+    .arrow {
+        margin-bottom: .5rem;
+        width: 2rem;
+     }
+.BrightEDStartcontainer p{
+        font-size: 1rem;
+}
+ .header-blue{
+        height: 2rem;
+        }
+    .buttonwrap{
+        width: 15rem;
+        height: 5rem;
+        background: #004D6B;
+        color: #EFF3FF;
+    }
+.button{
+    font-size: 1rem;  
+}
+.introduction{
+   margin-left: 15rem;
+   width: 100%;
+}
+
+    .header-menu {
+      display: none;
+    }
+    .hamburger-menu{
+      display: flex;
+      font-size: 10px;
+      width: 50px;
+      height: 30px;
+      margin-right: 1rem;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-top: 0rem;
+    }
+    .cutepicture{
+        display: none;
+    }
+    .cutepicture2{
+        display: flex; 
+    }
+    .cutepicture2{
+       width: 30rem;
+        height: auto;
+    }
+   
+    .learning b{
+       font-size: 10px;
+       margin: 0;
+    }
+    .WELCOME b{
+
+        font-size: 15px;
+        margin: 0;  
+    }
+}
+@media screen and (max-width: 266px)
+{
+    .learning b{
+        font-size: 9px;
+        margin: 0;
+     }
+     .WELCOME b{
+ 
+         font-size: 14px;
+         margin: 0;  
+     } 
+}
+
+
+
 /* Tablets */
 @media screen and (max-width: 950px) 
 {
@@ -214,9 +298,10 @@ body{
         font-size: 20px;
         margin: 0;
     }
+    
 }
 
-@media screen and (max-width: 1478px) 
+@media screen and (max-width: 1410px) 
 {
     .cutics{
         width: 600px;
@@ -229,7 +314,11 @@ body{
         font-size: 18px;
         margin: 0;
     }
+    
 }
+
+
+    
     
 
 

@@ -3,25 +3,33 @@
 .menu-continer{
     display: flex;
     justify-content: center;
-    font-family: Atkinson Hyperlegible;
     color: #00574F;
+    font-family: Atkinson Hyperlegible;
     padding-top: 7rem;
+    width: 100%;
+    height: auto;
 }
 .Select{
     margin: 0;
-    font-size: 48px;
+    font-size: 3.5rem;
 }
 .grade{
-font-size: 36px;
+font-size: 2rem;
 margin: 0;
-margin-top: 4rem;
-padding-left: 2rem;
+margin-top: 3rem;
+font-family: Atkinson Hyperlegible;
+}
+.pic-selec-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .picture-selection{
     display: flex;
-    justify-content: space-between;
-    padding: 0rem 18rem;
-    font-family: Atkinson Hyperlegible;
+    justify-content:center;
+    gap: 4rem;
+    width: 100%;
     color: #00574F;
 }
 .link-index{
@@ -30,83 +38,86 @@ padding-left: 2rem;
 }
 .cutepicture3{
     display: flex;  
-    justify-content: center;
-    gap: 2rem;
-
-    
+    justify-content: space-between;   
 }
-.firstpic{
-    width: 40rem; 
-}
+.firstpic,
 .secondpic{
-   width: 40rem;
-}
-.menuwrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%; 
+    height: auto;
 }
 
-@media screen and (max-width: 414px) 
-{
-    .header-blue{
-        height: 4rem;
-    }
-    
-.menu-continer{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10rem;
-    padding-top: 4rem;
+
+
+@media screen and (max-width: 768px){
+    .firstpic,
+    .secondpic{
+    width: 35rem; 
+    height: auto;
 }
-.Select {
-    font-size: 20px;
-    margin: 0;
+.picture-selection img{
+    width: 12rem;
+    height: auto; 
+}
+.menu-continer{
+    padding-left: 15rem;
+ }
+ .Select
+ {
+     margin: 0;
+     font-size: 2.5rem;
+ }
+ .grade{
+    font-size: 2rem;
+    margin-top: 0rem;
 }
 .picture-selection{
+     width: 100%;
+     height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 15rem;
+    gap: .1rem;
+}
+
+}
+
+@media screen and (max-width: 414px){
+    .firstpic,
+    .secondpic{
+    width: 23rem; 
+    height: auto;
+}
+.picture-selection img{
+    width: 10rem;
+    height: auto; 
+}
+.menu-continer{
+    padding-left: 9em;
+    padding-top: 5rem;
+ }
+ .Select
+ {
+     margin: 0;
+     font-size: 2rem;
+ }
+ .grade{
+    font-size: 1.7rem;
+    margin-top: 0rem;
+}
+.picture-selection{
+    width: 100%;
+    height: auto;
+   justify-content: center;
+   padding: 2rem 10rem;
+   gap: .1rem;
+}
+.pic-selec-div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0rem 0rem;
-    padding-left: 9rem;
+    gap: .5rem;
+    width: 100%;
 }
 
-.image-selection{
-    width: auto;
-    height: auto;
-}
-.grade{
-    margin-top: 1rem;
-    font-size: 25px;
-}
-.firstpic{
-    margin-left: 8rem;
-    gap: 0rem;
-}
-}
-
-
-@media screen and (max-width: 950px)
-{
-    .picture-selection{
-
-    justify-content: center;
-    padding: 0rem 10;       
-}
-.firstpic, .secondpic{
-    width: 20rem;
-    height: auto;
-}
-.BrightEDStartcontainer{
-    font-size: 2rem;
-    padding-left: 1rem;
-    margin-right: 0px;
-}
-.header-menu{
-    font-size: 15px;
-}
 }
